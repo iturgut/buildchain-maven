@@ -1,0 +1,8 @@
+projects:
+  - id: joda-time
+    repo: https://github.com/iturgut/joda-time.git
+    build_job: build
+    downstream:
+      - id: spring-petclinic
+        repo: https://github.com/iturgut/spring-petclinic.git
+        build_job: build
