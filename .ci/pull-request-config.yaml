@@ -1,3 +1,5 @@
+version: "2.2"
+
 projects:
   - id: joda-time
     repo: https://github.com/iturgut/joda-time.git
